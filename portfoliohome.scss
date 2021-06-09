@@ -1,0 +1,141 @@
+$primary-color: #905171;
+$secondary-color: #341948;
+$tertiary-color: #FEECC3;
+$primary-font: 'Josefin Sans', sans-serif;
+$secondary-font: 'Over the Rainbow', cursive;
+
+body { 
+    background: linear-gradient(to bottom, #ffaebc 0%, #fbe7c6 100%);
+}
+
+.home {
+    height: 100vh;
+    width:100%;
+}
+
+.myskills {
+
+    height: 100vh;
+    width:100%;
+    }
+
+.featuredprojects {
+    height: 100vh;
+    width:100%;
+    
+}
+
+.nav {
+    display: flex;
+    min-height: 50px;
+    justify-content: flex-end;
+    align-items:flex-end;
+    flex-direction: row;
+}
+
+.nav-bar {
+    display: flex;
+    min-height: 50px;
+    justify-content: space-between;
+    min-width: 30%;
+        &__links {
+            text-decoration: none;
+            color: $primary-color;
+            font-family: $primary-font;
+        }
+        &__links:hover {
+            color:$tertiary-color;
+            text-decoration: underline;
+        }
+        
+    }
+
+.brand {
+    text-align: center;
+}
+
+.brand-name {
+    font-family: $secondary-font;
+    font-size: 5rem;
+    color: $secondary-color;
+    margin: 0;
+    padding: 10px;
+}
+
+.brand p {
+    color: $primary-color;
+    font-size: 1.5rem;
+    margin: 0;
+    font-family: $primary-font;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.contact h4{
+    font-family: $secondary-font;
+    color: $secondary-color;
+    font-weight: bold;
+
+}
+.contact-me-icon {
+    color: $primary-color;
+
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+    color:$tertiary-color;
+}
+
+
+h2 {
+    font-family: $secondary-font;
+    text-align: center;
+    color: $secondary-color;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.mybackground {
+    display: flex;
+    justify-content: center;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    min-width: 100px;
+    padding: 20px;
+    color: #FB4570;
+
+}
+
+.skill-text {
+    display: flex;
+    font-size: 1rem;
+}
+
+.icon:hover {
+    color: #BD97CB;
+   
+
+
+}
+
+footer h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $secondary-font;
+    color: #FB4570;
+    font-weight: bolder;
+}
